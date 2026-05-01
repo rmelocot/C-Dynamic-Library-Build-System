@@ -37,7 +37,7 @@ a0/
 └── README.md
 
 ## Installation & Usage
-## 1. Clone the repository
+### 1. Clone the repository
 git clone <your-github-repo-url>
 cd a0
 ## 2. Build the project
