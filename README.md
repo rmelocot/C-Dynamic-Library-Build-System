@@ -23,31 +23,25 @@ Tools: Make, GNU/Linux toolchain
 
 ## Project Structure
 a0/
-
 ├── src/
-
 │   ├── main.c
-
 │   ├── util.c
-
 │   └── util.h
-
 ├── Makefile
-
 └── README.md
 
 ## Installation & Usage
 ### 1. Clone the repository
 git clone <your-github-repo-url>
 cd a0
-## 2. Build the project
+### 2. Build the project
 make
-## 3. Run the program
+### 3. Run the program
 LD_LIBRARY_PATH=./lib ./bin/a0
 ##4 . Clean build files
 make clean      # removes object files
 make cleaner    # removes all generated files
-## Example Output
+### Example Output
 Hello from the library: Goodbye!
 ## What I Learned
 How C programs are split into translation units (.c and .h)
