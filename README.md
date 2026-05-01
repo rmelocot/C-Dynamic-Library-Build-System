@@ -1,7 +1,7 @@
 # C-Dynamic-Library-Build-System
 C99 program demonstrating compilation, linking, and shared libraries
 
-##Overview
+## Overview
 
 This project is a small C program that demonstrates how source code is compiled, organized, and linked using a shared (dynamic) library.
 
