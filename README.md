@@ -9,19 +9,19 @@ The program separates functionality across multiple files, compiles them into ob
 
 This project highlights how real-world C applications manage modular code and external libraries.
 
-##Features
+## Features
 Multi-file C program (main.c, util.c, util.h)
 Compilation into object files
 Creation of a shared library (libutil.so)
 Dynamic linking at runtime
 Fully automated build using a Makefile
 
-##Tech Stack
+## Tech Stack
 Language: C (C99 standard)
 Compiler: clang
 Tools: Make, GNU/Linux toolchain
 
-##Project Structure
+## Project Structure
 a0/
 ├── src/
 │   ├── main.c
@@ -30,33 +30,33 @@ a0/
 ├── Makefile
 └── README.md
 
-##Installation & Usage
-##1. Clone the repository
+## Installation & Usage
+## 1. Clone the repository
 git clone <your-github-repo-url>
 cd a0
-##2. Build the project
+## 2. Build the project
 make
-##3. Run the program
+## 3. Run the program
 LD_LIBRARY_PATH=./lib ./bin/a0
-##4. Clean build files
+##4 . Clean build files
 make clean      # removes object files
 make cleaner    # removes all generated files
-##Example Output
+## Example Output
 Hello from the library: Goodbye!
-##What I Learned
+## What I Learned
 How C programs are split into translation units (.c and .h)
 The full compilation pipeline: source → object files → shared library → executable
 How dynamic linking works using .so libraries
 Writing explicit Makefile rules without pattern matching
 Managing build artifacts and keeping repositories clean
-##Challenges & Notes
+## Challenges & Notes
 Understanding the difference between compiling and linking required careful attention
 Setting LD_LIBRARY_PATH correctly was necessary for the executable to find the shared library
 Ensuring all build steps were explicitly defined in the Makefile (no shortcuts allowed)
-##Academic Context
+## Academic Context
 
 This project was completed as part of a university data structures and systems programming course. It has been adapted and documented for portfolio purposes.
 
-##Disclosure
+## Disclosure
 
 I completed this assignment entirely on my own.
