@@ -1,5 +1,5 @@
 # C-Dynamic-Library-Build-System
-C99 program demonstrating compilation, linking, and shared libraries
+**C99 program demonstrating compilation, linking, and shared libraries**
 
 ## Overview
 
@@ -23,11 +23,17 @@ Tools: Make, GNU/Linux toolchain
 
 ## Project Structure
 a0/
+
 ├── src/
+
 │   ├── main.c
+
 │   ├── util.c
+
 │   └── util.h
+
 ├── Makefile
+
 └── README.md
 
 ## Installation & Usage
