@@ -1,0 +1,14 @@
+Assignment 0 Grading
+ 1 Contents of repo                                                         5/ 5
+ 2 Compiler used                                                            1/ 1
+ 3 Compiler parameters                                                      5/ 5
+ 4 make                                                                     1/ 1
+ 5 Makefile outputs                                                         4/ 4
+ 6 Executable & output                                                      2/ 2
+ 7 Comments                                                                 3/ 3
+ 8 Indentation                                                              3/ 3
+ 9 Make clean/cleaner                                                       4/ 4
+10 #ifndef in header file                                                   1/ 1
+11 README.md Disclosure                                                     1/ 1
+--------------------------------------------------------------------------------
+                                                                           30/30
