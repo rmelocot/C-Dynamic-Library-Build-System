@@ -25,10 +25,10 @@ Tools: Make, GNU/Linux toolchain
 a0/
 <br>├── src/
 <br>│   ├── main.c
-│   ├── util.c
-│   └── util.h
-├── Makefile
-└── README.md
+<br>│   ├── util.c
+<br>│   └── util.h
+<br>├── Makefile
+<br>└── README.md
 
 ## Installation & Usage
 ### 1. Clone the repository
