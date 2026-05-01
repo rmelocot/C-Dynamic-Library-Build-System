@@ -24,9 +24,9 @@ Tools: Make, GNU/Linux toolchain
 ## Project Structure
 a0/
 <br>├── src/
-<br>│   ├── main.c
-<br>│   ├── util.c
-<br>│   └── util.h
+<br> │     ├── main.c
+<br> │     ├── util.c
+<br> │     └── util.h
 <br>├── Makefile
 <br>└── README.md
 
