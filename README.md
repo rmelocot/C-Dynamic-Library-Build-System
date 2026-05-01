@@ -22,13 +22,13 @@ Compiler: clang
 Tools: Make, GNU/Linux toolchain
 
 ## Project Structure
-a0/
-<br>├── src/
-<br> │     ├── main.c
-<br> │     ├── util.c
-<br> │     └── util.h
-<br>├── Makefile
-<br>└── README.md
+a0/ <br>
+├── src/ <br>
+│ &emsp;├── main.c <br>
+│ &emsp;├── util.c <br>
+│ &emsp;└── util.h <br>
+├── Makefile <br>
+└── README.md<br>
 
 ## Installation & Usage
 ### 1. Clone the repository
