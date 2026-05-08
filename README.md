@@ -1,62 +1,76 @@
 # C-Dynamic-Library-Build-System
-**C99 program demonstrating compilation, linking, and shared libraries**
+**C99 project demonstrating compilation, linking, and shared libraries**
 
 ## Overview
 
-This project is a small C program that demonstrates how source code is compiled, organized, and linked using a shared (dynamic) library.
+This project is a small C program that demonstrates how code is compiled, linked, and organized using a shared library.
 
-The program separates functionality across multiple files, compiles them into object files, builds a shared library (.so), and links it dynamically to produce an executable. When run, the executable calls a function from the shared library to print a message.
+The program is split across multiple source files, compiled into object files, and linked into a shared library (`.so`) that is used by the final executable at runtime.
 
-This project highlights how real-world C applications manage modular code and external libraries.
+The goal of the project is to demonstrate how modular C programs are built and how dynamic linking works in practice.
 
 ## Features
-Multi-file C program (main.c, util.c, util.h)
-Compilation into object files
-Creation of a shared library (libutil.so)
-Dynamic linking at runtime
-Fully automated build using a Makefile
+- Multi-file C program structure
+- Compilation into object files
+- Creation of a shared library (`libutil.so`)
+- Dynamic linking at runtime
+- Automated build process using a Makefile
 
 ## Tech Stack
-Language: C (C99 standard)
-Compiler: clang
-Tools: Make, GNU/Linux toolchain
+Language: C (C99)<br>
+Compiler: clang<br>
+Build Tools: Make, GNU/Linux toolchain
 
 ## Project Structure
-a0/ <br>
-├── src/ <br>
-│ &emsp;├── main.c <br>
-│ &emsp;├── util.c <br>
-│ &emsp;└── util.h <br>
-├── Makefile <br>
+a0/<br>
+├── src/<br>
+│ &emsp;├── main.c<br>
+│ &emsp;├── util.c<br>
+│ &emsp;└── util.h<br>
+├── Makefile<br>
 └── README.md<br>
 
 ## Installation & Usage
+
 ### 1. Clone the repository
+```bash
 git clone <your-github-repo-url>
 cd a0
+```
+
 ### 2. Build the project
+```bash
 make
+```
+
 ### 3. Run the program
+```bash
 LD_LIBRARY_PATH=./lib ./bin/a0
-##4 . Clean build files
-make clean      # removes object files
-make cleaner    # removes all generated files
+```
+
+### 4. Clean build files
+```bash
+make clean
+make cleaner
+```
+
 ### Example Output
+```text
 Hello from the library: Goodbye!
+```
+
 ## What I Learned
-How C programs are split into translation units (.c and .h)
-The full compilation pipeline: source → object files → shared library → executable
-How dynamic linking works using .so libraries
-Writing explicit Makefile rules without pattern matching
-Managing build artifacts and keeping repositories clean
+- How C programs are separated into source and header files
+- The compilation process from source files to executables
+- How shared libraries (`.so`) work with dynamic linking
+- How to write Makefiles for automated builds
+- How build artifacts and libraries are organized in C projects
+
 ## Challenges & Notes
-Understanding the difference between compiling and linking required careful attention
-Setting LD_LIBRARY_PATH correctly was necessary for the executable to find the shared library
-Ensuring all build steps were explicitly defined in the Makefile (no shortcuts allowed)
+- Understanding the difference between compiling and linking
+- Setting `LD_LIBRARY_PATH` correctly for runtime linking
+- Ensuring each build step was properly defined in the Makefile
+
 ## Academic Context
 
-This project was completed as part of a university data structures and systems programming course. It has been adapted and documented for portfolio purposes.
-
-## Disclosure
-
-I completed this assignment entirely on my own.
+This project was completed independently as part of a university-level systems programming course and has been adapted for portfolio purposes.
